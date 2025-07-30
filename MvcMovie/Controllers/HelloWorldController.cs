@@ -9,8 +9,8 @@ public class HelloWorldController : Controller
     // GET: /HelloWorld/
     public IActionResult Index()
     {
-        ViewBag.Name = "Shoaib Abbas";
-        ViewData["Date"] = DateTime.Now.ToString();
+        //ViewBag.Name = "Shoaib Abbas";
+        //ViewData["Date"] = DateTime.Now.ToString();
         return View();
     }
     // 
